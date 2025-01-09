@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"paths": {
+			"~nextApi/*": ["app/api/*"],
+			"~api/*": ["api/*"],
+			"~app-api/*": ["app-api/*"],
+			"~app/*": ["app/*"],
+			"~assets/*": ["assets/*"],
+			"~components/*": ["components/*"],
+			"~constants/*": ["constants/*"],
+			"~helpers/*": ["helpers/*"],
+			"~hooks/*": ["hooks/*"],
+			"~libs/*": ["libs/*"],
+			"~models/*": ["models/*"],
+			"~pages/*": ["pages/*"],
+			"~services/*": ["services/*"],
+			"~store/*": ["store/*"],
+			"~styles/*": ["styles/*"],
+			"~types/*": ["types/*"],
+			"~utils/*": ["utils/*"],
+			"~/*": ["*"],
+			"~ameliance-scripts/*": ["submodules/ameliance-scripts/src/*"],
+			"~ameliance-fetch/*": ["submodules/ameliance-fetch/src/*"],
+			"~ameliance-ui/*": ["submodules/ameliance-ui/*"],
+			"~ameliance-use-icons-scss/*": ["submodules/ameliance-use-icons-scss/*"],
+			"~site/content": ["../.velite"]
+		}
+	}
+}

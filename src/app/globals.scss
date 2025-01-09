@@ -1,0 +1,18 @@
+@use "~ameliance-ui/" as *;
+
+body {
+	background-color: get-color(shade-90);
+	background-image: radial-gradient(get-color(shade-70) 1px, get-color(shade-90) 1px);
+	background-size: 24px 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+}
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+

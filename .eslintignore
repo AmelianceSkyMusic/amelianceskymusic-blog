@@ -1,0 +1,10 @@
+node_modules/
+dist/
+._backup/
+._legacy/
+._temp/
+._labs/
+**/*._backup*
+**/*._legacy*
+**/*._temp*
+**/*._labs*

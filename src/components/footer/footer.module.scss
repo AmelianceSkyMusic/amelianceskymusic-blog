@@ -1,0 +1,11 @@
+.footer {
+	padding-bottom: var(--a--gap);
+}
+
+.container {
+	display: flex;
+	height: calc(36px + var(--a--gap));
+	height: 42px;
+	justify-content: center;
+	align-items: center;
+}
