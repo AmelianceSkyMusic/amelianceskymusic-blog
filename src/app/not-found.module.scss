@@ -1,0 +1,39 @@
+.container {
+	position: relative;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	position: relative;
+	bottom: calc(var(--a--gap) * 2);
+	display: flex;
+	.title40 {
+		font-size: 88px;
+	}
+	.title4 {
+		position: relative;
+		font-size: 88px;
+		transform: rotate(220deg);
+		transform-origin: 70% 75%;
+		animation: char-animation 1s ease-in-out infinite alternate;
+	}
+}
+
+.goHome {
+	position: absolute;
+	bottom: var(--a--gap);
+	text-transform: uppercase;
+}
+
+@keyframes char-animation {
+	0% {
+		transform: rotate(160deg);
+	}
+	100% {
+		transform: rotate(220deg);
+	}
+}

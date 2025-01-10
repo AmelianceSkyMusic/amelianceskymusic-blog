@@ -1,0 +1,9 @@
+[submodule "src/submodules/ameliance-ui"]
+	path = src/submodules/ameliance-ui
+	url = https://github.com/AmelianceSkyMusic/ameliance-ui
+[submodule "src/submodules/ameliance-scripts"]
+	path = src/submodules/ameliance-scripts
+	url = https://github.com/AmelianceSkyMusic/ameliance-scripts
+[submodule "src/submodules/ameliance-fetch"]
+	path = src/submodules/ameliance-fetch
+	url = https://github.com/AmelianceSkyMusic/ameliance-fetch
